@@ -19,6 +19,7 @@ The configuration file passed as an argument should have the following structure
 - Number of neurons per layer
 - Number of outputs
 - Desired outputs
+
 You can find examples in this repository such as `tiny_nn.txt`, `small_nn.txt`, or `big_nn.txt`.
 
 ## Limitations
