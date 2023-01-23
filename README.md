@@ -19,12 +19,13 @@ The configuration file passed as an argument should have the following structure
 - Number of neurons per layer
 - Number of outputs
 - Desired outputs
+You can find examples in this repository such as `tiny_nn.txt`, `small_nn.txt`, or `big_nn.txt`.
 
 ## Limitations
 
 Please note the following limitations:
 - Currently, only forward pass is implemented.
-- All the hidden layers of the MLP have the same size. Only input and output layers are different.
+- All the hidden layers of the MLP have the same size. Only input and output layers can be different.
 - Only Relu and Tanh activation functions are implemented.
 - The inputs should be normalized with mean 0 and standard deviation 1 (for numerical stability).
 - The number of neurons per layer MUST be a multiple of the number of processes.
